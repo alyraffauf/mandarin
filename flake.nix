@@ -26,8 +26,6 @@
       url = "github:nix-community/home-manager/release-24.05";
     };
 
-    hyprland.url = "git+https://github.com/hyprwm/Hyprland?submodules=1";
-
     nixhw = {
       inputs.nixpkgs.follows = "nixpkgs";
       url = "github:alyraffauf/nixhw";
@@ -38,12 +36,10 @@
     accept-flake-config = true;
 
     extra-substituters = [
-      "https://hyprland.cachix.org"
       "https://nix-community.cachix.org"
     ];
 
     extra-trusted-public-keys = [
-      "hyprland.cachix.org-1:a7pgxzMz7+chwVL3/pzj6jIBMioiJM7ypFP8PwtkuGc="
       "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
     ];
   };
