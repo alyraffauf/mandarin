@@ -48,11 +48,7 @@
     desktop = {
       greetd = {
         enable = true;
-
-        autologin = {
-          enable = true;
-          user = "morgan";
-        };
+        autologin = "morgan";
       };
 
       hyprland.enable = true;
