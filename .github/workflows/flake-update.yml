@@ -1,13 +1,13 @@
-name: "update-flake-inputs"
+name: "flake-update"
 on:
   schedule:
     - cron: "0 0 * * 0"
   workflow_dispatch:
 jobs:
-  update-inputs:
+  inputs-update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@main
         with:
           ref: ${{ github.head_ref }}
           fetch-depth: 1
@@ -15,10 +15,9 @@ jobs:
         run: |
           git config --local user.name  "github-actions[bot]"
           git config --local user.email  "github-actions[bot]@users.noreply.github.com"
-      - name: Install Nix
-        uses: DeterminateSystems/nix-installer-action@main
-      - name: Update flake.lock
-        uses: DeterminateSystems/update-flake-lock@main
+      - uses: DeterminateSystems/nix-installer-action@main
+      - uses: DeterminateSystems/magic-nix-cache-action@main
+      - uses: DeterminateSystems/update-flake-lock@main
         with:
           token: ${{ secrets.FLAKE_UPDATE_PAT }}
           pr-title: "flake: update inputs"
