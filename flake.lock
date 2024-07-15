@@ -66,11 +66,11 @@
         "raffauflabs": "raffauflabs"
       },
       "locked": {
-        "lastModified": 1720973521,
-        "narHash": "sha256-c0/ZnabQfNoj11msTCCdHzKj6xQGFKPAZlSF/Le64/M=",
+        "lastModified": 1721016858,
+        "narHash": "sha256-aEiB7Xk+dgyesEm+rancFh9fT7mRWVuf0OEzEkNPFiA=",
         "owner": "alyraffauf",
         "repo": "nixcfg",
-        "rev": "2b8bae8c04c32717ce047bcc53d61cbd2a6d8b9f",
+        "rev": "3899be29c3044ab1dd451f407ee2c826f06b3d35",
         "type": "github"
       },
       "original": {
@@ -471,11 +471,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1720619751,
-        "narHash": "sha256-A6/7nXOW0UsrFu/IYqVmTMdkm5UjFJUDB4xpJvM5UvQ=",
+        "lastModified": 1720994659,
+        "narHash": "sha256-nN7sFe3tHG0xget7YYEErCx+kg4PqOnPAe8p8Pqg+ms=",
         "owner": "alyraffauf",
         "repo": "nixhw",
-        "rev": "5b22cdd5f53c88b98dc993c8d4578182aef8877f",
+        "rev": "d308ee6dfb9a46ab75b0e725b636f2c2846fc607",
         "type": "github"
       },
       "original": {
