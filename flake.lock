@@ -66,11 +66,11 @@
         "raffauflabs": "raffauflabs"
       },
       "locked": {
-        "lastModified": 1721076026,
-        "narHash": "sha256-6vC2RJ0o+3QZPo4XHmDtz4Vb9tWO+Vh/2PgUpZEO4Fs=",
+        "lastModified": 1721522266,
+        "narHash": "sha256-Ksiw4uFZIUMCyNe9HYGOFrcr70dcb4DkowbdO2i4VwE=",
         "owner": "alyraffauf",
         "repo": "nixcfg",
-        "rev": "a16cd5ef4101c85b11e3c130b74643da85aec7ce",
+        "rev": "31866dbe206599c3236eedcbf80a7fab5a885632",
         "type": "github"
       },
       "original": {
@@ -175,11 +175,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1721007199,
-        "narHash": "sha256-Gof4Lj1rgTrX59bNu5b/uS/3X/marUGM7LYw31NoXEA=",
+        "lastModified": 1721417620,
+        "narHash": "sha256-6q9b1h8fI3hXg2DG6/vrKWCeG8c5Wj2Kvv22RCgedzg=",
         "owner": "nix-community",
         "repo": "disko",
-        "rev": "bad376945de7033c7adc424c02054ea3736cf7c4",
+        "rev": "bec6e3cde912b8acb915fecdc509eda7c973fb42",
         "type": "github"
       },
       "original": {
@@ -506,11 +506,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1720954236,
-        "narHash": "sha256-1mEKHp4m9brvfQ0rjCca8P1WHpymK3TOr3v34ydv9bs=",
+        "lastModified": 1721409541,
+        "narHash": "sha256-b6PLr0Ty7JPDBtJtjnYzlBf02bbH9alWMAgispMkTwk=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "53e81e790209e41f0c1efa9ff26ff2fd7ab35e27",
+        "rev": "0c53b6b8c2a3e46c68e04417e247bba660689c9d",
         "type": "github"
       },
       "original": {
@@ -522,11 +522,11 @@
     },
     "nixpkgs-unstable": {
       "locked": {
-        "lastModified": 1720957393,
-        "narHash": "sha256-oedh2RwpjEa+TNxhg5Je9Ch6d3W1NKi7DbRO1ziHemA=",
+        "lastModified": 1721379653,
+        "narHash": "sha256-8MUgifkJ7lkZs3u99UDZMB4kbOxvMEXQZ31FO3SopZ0=",
         "owner": "nixos",
         "repo": "nixpkgs",
-        "rev": "693bc46d169f5af9c992095736e82c3488bf7dbb",
+        "rev": "1d9c2c9b3e71b9ee663d11c5d298727dace8d374",
         "type": "github"
       },
       "original": {
@@ -609,11 +609,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1721023988,
-        "narHash": "sha256-C+mibzpLG8oSo3JKiOtS+L8Lbj8+taI09U4LNfCffVo=",
+        "lastModified": 1721357042,
+        "narHash": "sha256-pIOk8ePtkV/nqkPGCyYueo6aiIrHQyOdqftmPaH0dnE=",
         "owner": "alyraffauf",
         "repo": "raffauflabs",
-        "rev": "6f4de389b15e6bc25834ef297fbcf9b0bd6bc561",
+        "rev": "998b461e0f2ff52f3e02bb14040120d446734264",
         "type": "github"
       },
       "original": {
