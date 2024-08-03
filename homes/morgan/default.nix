@@ -38,7 +38,7 @@ self: {
     };
 
     defaultApps.enable = true;
-    
+
     services = {
       gammastep.enable = true;
       randomWallpaper.enable = true;
