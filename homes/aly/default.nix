@@ -32,13 +32,11 @@ self: {
 
   ar.home = {
     apps = {
-      alacritty.enable = true;
       bash.enable = true;
       chromium.enable = true;
       emacs.enable = true;
       fastfetch.enable = true;
       firefox.enable = true;
-      keepassxc.enable = true;
       tmux.enable = true;
       vsCodium.enable = true;
     };
