@@ -13,7 +13,6 @@
       extraGroups = config.ar.users.defaultGroups;
       hashedPassword = config.ar.users.aly.password;
       isNormalUser = true;
-      linger = true;
       uid = 1000;
 
       openssh.authorizedKeys = {
