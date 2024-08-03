@@ -65,11 +65,11 @@
         "raffauflabs": "raffauflabs"
       },
       "locked": {
-        "lastModified": 1722388700,
-        "narHash": "sha256-wcopDiwUQjGjoI87EEp9PFNrlzu59ep6koAIoorOeOY=",
+        "lastModified": 1722704662,
+        "narHash": "sha256-9GFY9kusmdEmqGoeW895qMtgDfLOJo3xKYWXDkdB1yw=",
         "owner": "alyraffauf",
         "repo": "nixcfg",
-        "rev": "ea011b61e10b060bbbdcee3c7585db3ed2306329",
+        "rev": "f0b064c19b07354491ba5dc402727801596147a7",
         "type": "github"
       },
       "original": {
