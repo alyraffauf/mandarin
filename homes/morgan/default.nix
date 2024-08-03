@@ -31,7 +31,6 @@ self: {
 
   ar.home = {
     apps = {
-      alacritty.enable = true;
       bash.enable = true;
       chromium.enable = true;
       firefox.enable = true;
