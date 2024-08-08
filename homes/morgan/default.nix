@@ -31,9 +31,9 @@ self: {
 
   ar.home = {
     apps = {
-      bash.enable = true;
       chromium.enable = true;
       firefox.enable = true;
+      shell.enable = true;
       vsCodium.enable = true;
     };
 
