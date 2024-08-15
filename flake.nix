@@ -30,6 +30,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
       url = "github:alyraffauf/nixhw";
     };
+    
+    stylix = {
+      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:danth/stylix";
+    };
   };
 
   nixConfig = {
@@ -67,10 +72,11 @@
       modules = [
         ./hosts/mandarin
         self.inputs.agenix.nixosModules.default
-        self.inputs.disko.nixosModules.disko
-        self.inputs.home-manager.nixosModules.home-manager
         self.inputs.alyraffauf.nixosModules.base
         self.inputs.alyraffauf.nixosModules.nixos
+        self.inputs.disko.nixosModules.disko
+        self.inputs.home-manager.nixosModules.home-manager
+        self.inputs.stylix.nixosModules.stylix
         self.nixosModules.users
 
         {

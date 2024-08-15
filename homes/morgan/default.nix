@@ -46,7 +46,7 @@ self: {
 
     theme = {
       enable = true;
-      wallpaper = "${config.xdg.dataHome}/backgrounds/jr-korpa-9XngoIpxcEo-unsplash.jpg";
+      borderRadius = 0;
     };
   };
 }

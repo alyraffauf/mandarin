@@ -1,7 +1,5 @@
 # Custom desktop with AMD Ryzen 5 5600x, 32GB RAM, AMD Rx 7800 XT, and 1TB SSD + 2TB SSD.
 {
-  config,
-  lib,
   pkgs,
   self,
   ...
@@ -10,6 +8,7 @@
     ../common.nix
     ./disko.nix
     ./home.nix
+    ./stylix.nix
     self.inputs.nixhw.nixosModules.common-amd-cpu
     self.inputs.nixhw.nixosModules.common-amd-gpu
     self.inputs.nixhw.nixosModules.common-bluetooth

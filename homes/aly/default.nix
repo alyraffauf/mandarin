@@ -50,7 +50,7 @@ self: {
 
     theme = {
       enable = true;
-      wallpaper = "${config.xdg.dataHome}/backgrounds/wallhaven-3led2d.jpg";
+      borderRadius = 0;
     };
   };
 }
