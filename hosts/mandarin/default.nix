@@ -1,5 +1,7 @@
 # Custom desktop with AMD Ryzen 5 5600x, 32GB RAM, AMD Rx 7800 XT, and 1TB SSD + 2TB SSD.
 {
+  config,
+  lib,
   pkgs,
   self,
   ...
@@ -48,10 +50,12 @@
       greetd = {
         enable = true;
         autologin = "morgan";
+        # session = lib.getExe config.programs.sway.package;
       };
 
       hyprland.enable = true;
       steam.enable = true;
+      sway.enable = true;
     };
 
     services.flatpak.enable = true;
