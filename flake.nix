@@ -72,7 +72,9 @@
       modules = [
         ./hosts/mandarin
         self.inputs.agenix.nixosModules.default
-        self.inputs.alyraffauf.nixosModules.base
+        self.inputs.alyraffauf.nixosModules.common-auto-upgrade
+        self.inputs.alyraffauf.nixosModules.common-base
+        self.inputs.alyraffauf.nixosModules.common-locale
         self.inputs.alyraffauf.nixosModules.nixos
         self.inputs.disko.nixosModules.disko
         self.inputs.home-manager.nixosModules.home-manager
