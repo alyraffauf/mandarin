@@ -19,7 +19,6 @@
 
   boot = {
     initrd.availableKernelModules = ["nvme" "sd_mod" "usb_storage" "usbhid" "xhci_pci"];
-    kernelPackages = lib.mkForce pkgs.linuxPackages_6_9;
 
     loader = {
       efi.canTouchEfiVariables = true;
