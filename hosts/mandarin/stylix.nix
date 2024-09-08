@@ -1,16 +1,12 @@
-{pkgs, ...}: {
+{
+  pkgs,
+  self,
+  ...
+}: {
   stylix = {
     enable = true;
     base16Scheme = "${pkgs.base16-schemes}/share/themes/default-dark.yaml";
-
-    image = let
-      wallpapers = builtins.fetchGit {
-        url = "https://github.com/alyraffauf/wallpapers.git";
-        rev = "21018eef106928c7c44d206c6c3730cce5f781f3";
-        ref = "master";
-      };
-    in "${wallpapers}/jr-korpa-9XngoIpxcEo-unsplash.jpg";
-
+    image = "${self.inputs.wallpapers}/jr-korpa-9XngoIpxcEo-unsplash.jpg";
     imageScalingMode = "fill";
     polarity = "dark";
 
