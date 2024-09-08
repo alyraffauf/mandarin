@@ -35,6 +35,11 @@
       inputs.nixpkgs.follows = "nixpkgs";
       url = "github:danth/stylix";
     };
+
+    wallpapers = {
+      url = "github:alyraffauf/wallpapers";
+      flake = false; # This is important to specify that it's a non-flake
+    };
   };
 
   nixConfig = {
