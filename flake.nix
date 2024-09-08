@@ -11,9 +11,9 @@
     };
 
     alyraffauf = {
-      inputs.nixpkgs.follows = "nixpkgs";
       inputs.nixpkgs-unstable.follows = "nixpkgs-unstable";
-      url = "github:alyraffauf/nixcfg";
+      inputs.nixpkgs.follows = "nixpkgs";
+      url = "github:alyraffauf/nixcfg?rev=29ff2d2b40ac21aed59f944a24d5546109171609";
     };
 
     disko = {
